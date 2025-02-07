@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const Sidebar = () => {
   return (
     <aside className='  w-[15%] h-screen justify  shadow border-gray-300 rounded-lg bg-gray-950 text-white flex flex-col '>
-        <Link to="/" className='flex items-center m-4 rounded p-2  hover:bg-gray-100 cursor-pointer hover:text-blue-950 hover:font-bold  duration-300 ease-out '>
+        <Link to="/" className='flex items-center m-4 rounded py-8  hover:bg-gray-100 cursor-pointer hover:text-blue-950 hover:font-bold  duration-300 ease-out '>
         <CiHome />
             <p className='ms-4'>Dashboard</p>
         </Link>

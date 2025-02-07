@@ -18,34 +18,34 @@ const Home = () => {
 
       </div>
 
-    <div className='flex justify-start ml-26 mt-10'>
-    <table className="w-full table-auto border-collapse text-center">
-  <thead>
-    <tr className='bg-gray-700 text-white '>
-      <th className="border px-4 py-2 text-center">T/N</th>
-      <th className="border px-4 py-2 text-center ">STATUS</th>
-      <th className="border px-4 py-2 text-center ">DATE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr className="hover:bg-gray-100 ">
-      <td className="border px-4 py-2">001 TXN</td>
-      <td className="border text-xl px-4 py-2 text-red-500">FAILED</td>
-      <td className="border px-4 py-2">2/5/25</td>
-    </tr>
-    <tr className="hover:bg-gray-100">
-      <td className="border px-4 py-2">002 TXN</td>
-      <td className="border text-xl text-yellow-400 rounded px-4 py-2">PENDING</td>
-      <td className="border px-4 py-2">2/5/25</td>
-    </tr>
-    <tr className="hover:bg-gray-100">
-      <td className="border px-4 py-2">003 TXN</td>
-      <td className="border rounded text-green-600 text-xl  px-4 py-2">SUCCESS</td>
-      <td className="border px-4 py-2">2/5/25</td>
-    </tr>
-  </tbody>
-</table>
-    </div>
+      <div className='flex justify-start ml-26 mt-10'>
+        <table className="w-full table-auto border-collapse text-center">
+          <thead>
+            <tr className='bg-gray-700 text-white '>
+              <th className="border px-4 py-2 text-center">T/N</th>
+              <th className="border px-4 py-2 text-center ">STATUS</th>
+              <th className="border px-4 py-2 text-center ">DATE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="hover:bg-gray-100 ">
+              <td className="border px-4 py-2">001 TXN</td>
+              <td className="border text-xl px-4 py-2 text-red-500">FAILED</td>
+              <td className="border px-4 py-2">2/5/25</td>
+            </tr>
+            <tr className="hover:bg-gray-100">
+              <td className="border px-4 py-2">002 TXN</td>
+              <td className="border text-xl text-yellow-400 rounded px-4 py-2">PENDING</td>
+              <td className="border px-4 py-2">2/5/25</td>
+            </tr>
+            <tr className="hover:bg-gray-100">
+              <td className="border px-4 py-2">003 TXN</td>
+              <td className="border rounded text-green-600 text-xl  px-4 py-2">SUCCESS</td>
+              <td className="border px-4 py-2">2/5/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
 
 
